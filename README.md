@@ -6,7 +6,7 @@ This repository contains the code for our [NeurIPS 2024 paper:](https://arxiv.or
 --
 # Dependencies
 
-We use python 3.8 and pytorch 2.0.1. You can use ```bash pip install -r requirements.txt``` to install the required libraries.
+We use python 3.8 and pytorch 2.0.1. You can use ```pip install -r requirements.txt``` to install the required libraries.
 
 --
 ## Data
@@ -28,6 +28,7 @@ python main.py \
   --order_index <Generate prompts with varying example orders>
 ```
 
+--
 ## Acknowledgment
 
 The code for calibration baselines evaluation is from [DC](https://github.com/fywalter/label-bias) and [PC](https://github.com/fywalter/label-bias). We appreciate their excellent contributions!
