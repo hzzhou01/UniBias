@@ -3,7 +3,6 @@ import json
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import transformers
 import torch
-load_SFT = False
 from FFN_manipulate import *
 from attention_manipulate import *
 from utils import *
