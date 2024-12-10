@@ -3,7 +3,6 @@ This repository contains the code for our [NeurIPS 2024 paper:](https://arxiv.or
 
 **"UniBias: Unveiling and Mitigating LLM Bias through Internal Attention and FFN Manipulation" (NeurIPS 2024)**
 
----
 ## Dependencies
 
 We use python 3.8 and pytorch 2.0.1. You can use ```pip install -r requirements.txt``` to install the required libraries.
@@ -25,12 +24,10 @@ python main.py \
   --format_index <Ggenerate prompts with different formats> \
   --order_index <Generate prompts with varying example orders>
 ```
----
 ## Acknowledgment
 
 The code for calibration baselines evaluation is from [DC](https://github.com/fywalter/label-bias) and [PC](https://github.com/fywalter/label-bias). We appreciate their excellent contributions!
 
----
 ## Citation
 
 If you find our work useful, please consider citing:
