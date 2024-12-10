@@ -4,7 +4,7 @@ This repository contains the code for our [NeurIPS 2024 paper:](https://arxiv.or
 **"UniBias: Unveiling and Mitigating LLM Bias through Internal Attention and FFN Manipulation" (NeurIPS 2024)**
 
 --
-# Dependencies
+## Dependencies
 
 We use python 3.8 and pytorch 2.0.1. You can use ```pip install -r requirements.txt``` to install the required libraries.
 
